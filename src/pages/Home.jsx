@@ -15,7 +15,7 @@ function Home() {
             <h2 className='text-6xl font-semibold'>Suas plantas estão <span className='text-[#2EAC23]'>morrendo!</span></h2>
             <p className='text-xl font-normal py-5'>Não se preocupe, nesse site terá as informações necessárias para salvar a sua planta!</p>
 
-            <button><a href="" className='bg-[#1C511B] text-[#91DF84] px-3 py-2 rounded transition-all hover:bg-[#113311]  font-semibold'>Sign-in</a></button>
+            <button><a href="cadastro" className='bg-[#1C511B] text-[#91DF84] px-3 py-2 rounded transition-all hover:bg-[#113311]  font-semibold'>Sign-in</a></button>
           </div>
 
           {/* imagem  */}
@@ -80,9 +80,9 @@ function Home() {
 
         {/* seção 3 */}
         <section className='h-[75vh]'>
-          <div className='flex justify-between items-center py-5 px-24'>
+          <div className='flex justify-between items-center  py-5 px-24'>
             <h3 className='text-4xl font-semibold'>Saiba como adubar!</h3>
-            <p className='w-96 font-medium text-lg'>Para manter que a sua planta fique verdinha e saudável, ela precisa consumir 13 nutrientes e não exagere na dose se você exagerar o ph do solo irá aumentar e ficar alcalino.</p>
+            <p className='font-medium text-lg w-[50vw]'>Para manter que a sua planta fique verdinha e saudável, ela precisa consumir 13 nutrientes e não exagere na dose se você exagerar o ph do solo irá aumentar e ficar alcalino.</p>
           </div>
           <div className='px-24 flex gap-5'>
             <img src="/src/assets/img/plantando.png" alt="" />

@@ -8,11 +8,11 @@ import { FaApple } from "react-icons/fa";
 export default function Cadastro() {
   return (
     <>
-      <div className='bg-auto flex items-center px-36 pt-28 bg-no-repeat bg-[#BCF0B3] h-screen w-full' style={{
+      <div className='bg-auto px-36 pt-28 flex items-center bg-no-repeat bg-[#BCF0B3] h-screen w-full' style={{
         backgroundImage: `url(${bgCadastro})`,
         backgroundPosition: 'right'
       }}>
-        <div className='flex flex-col items-center py-5 gap-4 rounded-lg w-96 bg-[#91DF84]'>
+        <div className='flex flex-col items-center py-5 my-24 gap-4 rounded-lg w-96 bg-[#91DF84]'>
           <h3 className='text-4xl text-center font-semibold'>Cadastrar</h3>
           <img width={100} src="src/assets/img/circles.png" alt="" />
           <div className='w-full pb-5 px-8'>
@@ -40,12 +40,8 @@ export default function Cadastro() {
           </div>
 
         </div>
+      </div>
 
-      </div>
-      <div className='px-24 bg-[#BCF0B3] flex w-full justify-between pb-5'>
-        <h5 className='text-2xl font-semibold'><a href="">Política de Privacidade</a></h5>
-        <h5 className='text-2xl font-semibold'>Copyright© 2024</h5>
-      </div>
     </>
   )
 }
